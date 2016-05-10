@@ -29,5 +29,9 @@ EXPOSE 58846
 EXPOSE 58847
 EXPOSE 58847/udp
 
-VOLUME /home/deluge
+VOLUME /home/deluge/complete
+VOLUME /home/deluge/incomplete
+VOLUME /home/deluge/torrentfiles
+VOLUME /home/deluge/watchtv
+VOLUME /home/deluge/watchmovies
 CMD ["runsvdir", "/etc/service"]

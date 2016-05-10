@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo -u deluge sh -c "mkdir -p /home/deluge/incomplete; mkdir -p /home/deluge/complete; mkdir -p /home/deluge/watch; mkdir -p /home/deluge/torrentfiles"
+sudo -u deluge sh -c "mkdir -p /home/deluge/incomplete; mkdir -p /home/deluge/complete; mkdir -p /home/deluge/watchtv; mkdir -p /home/deluge/watchmovies; mkdir -p /home/deluge/torrentfiles"
 rm -f /home/deluge/.config/deluge/deluge.pid
 chown -R deluge:deluge /home/deluge
 if [ ! -f /home/deluge/.config/deluge/auth ]; then
